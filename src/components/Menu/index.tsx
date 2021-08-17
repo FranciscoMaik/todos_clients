@@ -7,8 +7,8 @@ const Menu: React.FC = () => {
     <Container>
       <Title>PostIts Clients</Title>
       <ContainerItens>
-        <Itens>Todos</Itens>
-        <Itens>Usuários</Itens>
+        <Itens to="/">Todos</Itens>
+        <Itens to="/user">Usuários</Itens>
       </ContainerItens>
     </Container>
   );

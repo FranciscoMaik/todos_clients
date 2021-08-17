@@ -1,13 +1,14 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  flex: 1;
+  display: flex;
   height: 80px;
   width: 100%;
   background-color: #1a1a1a;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 76px;
 `;
 
 export const Title = styled.h1`
@@ -19,14 +20,19 @@ export const Title = styled.h1`
 `;
 
 export const ContainerItens = styled.div`
-  flex: 1;
+  display: flex;
+  width: 10%;
   justify-content: space-between;
-  background-color: aliceblue;
 `;
 
-export const Itens = styled.a`
+export const Itens = styled(Link)`
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
+  text-decoration: none;
+
+  :hover {
+    color: #fcfcfccc;
+  }
 `;
