@@ -32,7 +32,7 @@ const Home: React.FC = () => {
       <Menu />
       <Title name="Todos os todos" />
       <Container>
-        {todo.map(item => {
+        {todo.slice(0, 15).map(item => {
           return (
             <Card
               key={item.id}

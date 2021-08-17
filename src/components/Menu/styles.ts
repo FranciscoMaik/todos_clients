@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { shade } from 'polished';
 
-export const Container = styled.div`
+export const Container = styled.header`
   display: flex;
   height: 80px;
   width: 100%;
@@ -33,6 +34,6 @@ export const Itens = styled(Link)`
   text-decoration: none;
 
   :hover {
-    color: #fcfcfccc;
+    color: ${shade(0.2, '#ffffff')};
   }
 `;

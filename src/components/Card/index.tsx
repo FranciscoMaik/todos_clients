@@ -32,7 +32,7 @@ const Card: React.FC<CardResponse> = ({
 
   return (
     <Container>
-      <Tag />
+      <Tag isCompleted={completed} />
       <ContainerInfo>
         <h3>Título:</h3>
         <p>{title}</p>
