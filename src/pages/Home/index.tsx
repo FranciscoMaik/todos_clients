@@ -16,7 +16,7 @@ interface TodoResponse {
 }
 
 const Home: React.FC = () => {
-  const [todo, setTodo] = useState<TodoResponse[]>({} as TodoResponse[]);
+  const [todo, setTodo] = useState<TodoResponse[]>([]);
 
   useEffect(() => {
     async function getTodos() {
