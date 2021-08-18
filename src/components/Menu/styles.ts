@@ -24,6 +24,10 @@ export const ContainerItens = styled.div`
   display: flex;
   width: 10%;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    width: 20%;
+  }
 `;
 
 export const Itens = styled(Link)`
