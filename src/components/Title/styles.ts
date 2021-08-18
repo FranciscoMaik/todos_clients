@@ -10,8 +10,8 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.h1`
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
-  line-height: 28.13px;
+  line-height: 2.813rem;
   color: #ffffff;
 `;

@@ -18,10 +18,10 @@ export const Container = styled.header`
 
 export const Title = styled.h1`
   flex: 1;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #ffffff;
   font-weight: 500;
-  line-height: 21.09px;
+  line-height: 2.109rem;
 `;
 
 export const ContainerItens = styled.div`
@@ -49,8 +49,8 @@ export const ContainerItens = styled.div`
 export const Itens = styled(Link)`
   color: #ffffff;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16.41px;
+  font-size: 1.4rem;
+  line-height: 1.641rem;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;

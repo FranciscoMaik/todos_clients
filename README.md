@@ -25,7 +25,7 @@
 - [Yarn](https://yarnpkg.com/)
 
 ## Como executar a aplicação
-Para _rodar_ a aplicação é necessário está na pasta e executar o seguinte comando:
+Para _rodar_ a aplicação é necessário está na pasta e execu tar o seguinte comando:
 
 ```shell
     yarn install

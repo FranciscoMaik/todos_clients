@@ -41,15 +41,15 @@ export const ContainerInfo = styled.div`
   h3 {
     font-weight: 500;
     color: #ffffff;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 1.4rem;
+    line-height: 1.641rem;
     margin-right: 4px;
   }
 
   p {
     font-weight: 400;
     color: #ffffff;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 1.4rem;
+    line-height: 1.641rem;
   }
 `;
