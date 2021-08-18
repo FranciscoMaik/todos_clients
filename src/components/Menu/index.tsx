@@ -5,9 +5,9 @@ import { Container, Title, ContainerItens, Itens } from './styles';
 const Menu: React.FC = () => {
   return (
     <Container>
-      <Title>PostIts Clients</Title>
+      <Title>ToDos Clients</Title>
       <ContainerItens>
-        <Itens to="/">Todos</Itens>
+        <Itens to="/">ToDos</Itens>
         <Itens to="/user">Usuários</Itens>
       </ContainerItens>
     </Container>
