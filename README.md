@@ -66,4 +66,4 @@ Na página de Usuários é possível ver a listagem de usuários com suas inform
 
 
 ## Licença
-[Licença MIT](https://github.com/FranciscoMaik/AppTime/blob/main/LICENSE)  © [FranciscoMaik](https://www.linkedin.com/in/francisco-maik-fonseca-nunes-468511184/)
+[Licença MIT](https://github.com/FranciscoMaik/postits_clients/blob/main/LICENSE)  © [FranciscoMaik](https://www.linkedin.com/in/francisco-maik-fonseca-nunes-468511184/)
