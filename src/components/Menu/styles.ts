@@ -52,16 +52,19 @@ export const Itens = styled(Link)`
   font-size: 14px;
   line-height: 16.41px;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
 
   @media (max-width: 654px) {
-    margin-top: 6px;
+    padding: 6px;
   }
 
   @media (max-width: 360px) {
-    margin-top: 6px;
+    padding: 6px;
   }
 
   :hover {
-    color: ${shade(0.2, '#ffffff')};
+    color: ${shade(0.2, '#000000')};
+    background-color: ${(shade(0.1), '#ffffff')};
   }
 `;

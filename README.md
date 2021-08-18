@@ -22,9 +22,10 @@
 
 ## Pré-requisitos
 - [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/)
 
 ## Como executar a aplicação
-Para _rodar_ a aplicação é necessário está na pasta e execultar o seguinte comendo:
+Para _rodar_ a aplicação é necessário está na pasta e execultar o seguinte comando:
 
 ```shell
     yarn install
@@ -36,7 +37,7 @@ para a instalação das dependências e:
     yarn start
 ```
 
-para o funcionamento da apicação.
+para o funcionamento da aplicação.
 
 ## Funcionalidade da Aplicação
 A aplicação utiliza da API de testes contendo informações dos ToDos e dos usuários da plataforma.
