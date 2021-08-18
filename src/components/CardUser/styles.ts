@@ -15,9 +15,7 @@ export const InformationsPrincipal = styled.div`
 
   div {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    width: 50px;
   }
 `;
 
@@ -27,6 +25,20 @@ export const Circle = styled.div`
   background-color: #c4c4c4;
   border-radius: 50%;
   margin-right: 24px;
+`;
+
+export const ContainerInfoPrincipal = styled.div`
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+
+  h3 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+  }
 `;
 
 export const ContainerInfo = styled.div`

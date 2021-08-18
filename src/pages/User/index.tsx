@@ -25,7 +25,17 @@ const User: React.FC = () => {
       <Title name="Usuários" />
       <Container>
         {user.map(item => {
-          return <CardUser />;
+          return (
+            <CardUser
+              key={item.id}
+              id={item.id}
+              email={item.email}
+              name={item.name}
+              phone={item.phone}
+              address={item.address}
+              website={item.website}
+            />
+          );
         })}
       </Container>
     </>

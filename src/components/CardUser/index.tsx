@@ -7,6 +7,7 @@ import {
   Circle,
   Button,
   CentralizationButton,
+  ContainerInfoPrincipal,
 } from './styles';
 
 export interface UsersDatas {
@@ -21,39 +22,45 @@ export interface UsersDatas {
   };
 }
 
-const CardUser: React.FC = () => {
+const CardUser: React.FC<UsersDatas> = ({
+  address,
+  email,
+  name,
+  phone,
+  website,
+}: UsersDatas) => {
   return (
     <Container>
       <InformationsPrincipal>
         <Circle />
         <div>
-          <ContainerInfo>
-            <h3>adasd</h3>
-          </ContainerInfo>
-          <ContainerInfo>
-            <h3>asdasd</h3>
-          </ContainerInfo>
+          <ContainerInfoPrincipal>
+            <h3>{name}</h3>
+          </ContainerInfoPrincipal>
+          <ContainerInfoPrincipal>
+            <h3>{website}</h3>
+          </ContainerInfoPrincipal>
         </div>
       </InformationsPrincipal>
 
       <ContainerInfo>
         <h3>E-mail:</h3>
-        <p>asdasdaasd</p>
+        <p>{email}</p>
       </ContainerInfo>
 
       <ContainerInfo>
         <h3>Telefone:</h3>
-        <p>asdasd</p>
+        <p>{phone}</p>
       </ContainerInfo>
 
       <ContainerInfo>
         <h3>Rua:</h3>
-        <p>asdasd</p>
+        <p>{address.street}</p>
       </ContainerInfo>
 
       <ContainerInfo>
         <h3>Cidade:</h3>
-        <p>asdasd</p>
+        <p>{address.city}</p>
       </ContainerInfo>
 
       <CentralizationButton>
