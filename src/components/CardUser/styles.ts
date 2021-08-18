@@ -9,6 +9,9 @@ export const Container = styled.div`
 
   @media (max-width: 627px) {
     max-width: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 `;
 
@@ -16,6 +19,11 @@ export const InformationsPrincipal = styled.div`
   display: flex;
   margin-bottom: 29px;
   align-items: center;
+
+  @media (max-width: 627px) {
+    justify-content: space-between;
+    width: 90%;
+  }
 
   div {
     display: flex;
