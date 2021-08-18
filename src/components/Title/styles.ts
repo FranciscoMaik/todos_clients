@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin-top: 96px;
   margin-left: 76px;
+
+  @media (max-width: 637px) {
+    margin-left: 56px;
+  }
 `;
 
 export const Text = styled.h1`

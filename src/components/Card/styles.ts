@@ -10,6 +10,10 @@ export const Container = styled.div`
   max-width: 264px;
   border-radius: 5px;
 
+  @media (max-width: 435px) {
+    max-width: 364px;
+  }
+
   :hover {
     max-width: 274px;
     transition: 0.7s;

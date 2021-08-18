@@ -6,6 +6,10 @@ export const Container = styled.div`
   background-color: #242424;
   max-width: 264px;
   border-radius: 5px;
+
+  @media (max-width: 627px) {
+    max-width: 520px;
+  }
 `;
 
 export const InformationsPrincipal = styled.div`

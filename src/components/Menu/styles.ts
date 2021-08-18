@@ -10,6 +10,10 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 0px 76px;
+
+  @media (max-width: 360px) {
+    padding: 0px 26px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -25,8 +29,20 @@ export const ContainerItens = styled.div`
   width: 10%;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1177px) {
+    width: 15%;
+  }
+
+  @media (max-width: 818px) {
     width: 20%;
+  }
+
+  @media (max-width: 654px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 360px) {
+    flex-direction: column;
   }
 `;
 
@@ -36,6 +52,14 @@ export const Itens = styled(Link)`
   font-size: 14px;
   line-height: 16.41px;
   text-decoration: none;
+
+  @media (max-width: 654px) {
+    margin-top: 6px;
+  }
+
+  @media (max-width: 360px) {
+    margin-top: 6px;
+  }
 
   :hover {
     color: ${shade(0.2, '#ffffff')};
