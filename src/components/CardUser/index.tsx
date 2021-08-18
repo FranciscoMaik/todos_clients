@@ -63,11 +63,13 @@ const CardUser: React.FC<UsersDatas> = ({
         <p>{address.city}</p>
       </ContainerInfo>
 
-      <CentralizationButton>
+      {/* Integração de Modal */}
+
+      {/* <CentralizationButton>
         <Button>
           <h3>Ver mais</h3>
         </Button>
-      </CentralizationButton>
+      </CentralizationButton> */}
     </Container>
   );
 };
