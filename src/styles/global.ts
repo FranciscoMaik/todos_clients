@@ -10,6 +10,8 @@ export default createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    line-height: 62.5%;
+
   }
 
   body {
