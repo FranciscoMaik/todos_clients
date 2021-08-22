@@ -15,10 +15,11 @@
 
 <br><br>
 
-# ⛈ ToDos Clients
+# 📝 ToDos Clients
 ![badge](https://img.shields.io/badge/Projeto-ToDos%20Clients-%23ffa200)
 ![badge](https://img.shields.io/badge/Node-v14.15.1-green)
 ![badge](https://img.shields.io/badge/npx-v6.14.8-green)
+![badge](https://img.shields.io/badge/Yarn-v1.22.5-blue)
 
 ## Pré-requisitos
 - [Node](https://nodejs.org/en/)
@@ -67,4 +68,4 @@ Na página de Usuários é possível ver a listagem de usuários com suas inform
 
 
 ## Licença
-[Licença MIT](https://github.com/FranciscoMaik/postits_clients/blob/main/LICENSE)  © [FranciscoMaik](https://www.linkedin.com/in/francisco-maik-fonseca-nunes-468511184/)
+[Licença MIT](https://github.com/FranciscoMaik/postits_clients/blob/main/LICENSE)  ©[FranciscoMaik](https://www.linkedin.com/in/francisco-maik-fonseca-nunes-468511184/)
